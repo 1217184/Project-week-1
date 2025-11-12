@@ -98,7 +98,8 @@ header button {
 #front-image{
     height: 900px;
     width: 100vw;
-    
+
+    object-fit: cover;
 }
 
 .box {
