@@ -38,6 +38,10 @@ h6 {
     color: hsl(0, 0%, 25%);
 }
 
+.text-bold {
+    font-weight: bolder;
+}
+
 header {
     height: 46px;
     background-color: hsl(266, 30%, 26%);
@@ -98,7 +102,7 @@ header button {
 #front-image{
     height: 900px;
     width: 100vw;
-    
+    margin-bottom: 80px;
 }
 
 .box {
@@ -114,8 +118,22 @@ header button {
     margin: 20px;
 }
 
-.grid {
+
+
+h1 {
+    font-size: 50px;
+    margin-left: 70px;
+}
+
+.info-area {
+    margin-top: 40px;
+    justify-self: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    gap: 20px;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+}
+
+.snelle-info {
+    display: flex;
+    background: ;
 }
